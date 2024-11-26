@@ -1,38 +1,135 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+.navbar{
+  background-color: #131921;
+  padding: 20px;
+  font-family: "Merriweather", serif;
+}
+.navbar img{
+  height: 40px;
+  margin-left: 50px;
+}
+.size{
+  display: flex;
+}
+.navlinks{
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.search-field{
+ text-align: center;
+}
+#search-container{
+ margin: 10px auto;
+ text-align: center;
+}
+input{
+  height: 35px;
+}
+.btn{
+  height: 35px;
+}
+.btn:hover{
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 5px 15px rgba(4, 54, 54, 0.4);
+}
+img{
+  height: 250px;
+}
+#product-container{
+  width: 80%;
+  margin:5px auto;
+}
+.card-body p{
+  font-size: 15x;
+  font-weight: 500;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card{
+    width: 300px;
+    height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.5s ease;
+    
+    overflow: hidden;
+    text-align: center;
+}
+.card:hover {
+  box-shadow: rgba(215, 50, 50, 0.24) 10px 10px 5px 
+}
+.card-button{
+  background-color: rgba(52, 98, 159, 0.859);
+  border: 2px solid black;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#home-container{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.landing-cards{
+ height: 500px;
+ margin: 10px;
+ border-radius: 10px;
+}
+#card-1{
+ background-image: url('https://boldoutline.in/wp-content/uploads/2019/10/Web-Cover-82.jpg');
+ background-size: cover;
+ cursor: pointer;
+}
+#card-2{
+  background-image: url('https://thumbs.dreamstime.com/b/concept-grocery-shopping-home-delivery-app-filled-package-goods-decoration-wallpaper-desktop-poster-booklet-cover-298213803.jpg');
+  background-size: cover;
+  cursor: pointer;
+}
+#card-3{
+  background-image: url('https://wallpapers.com/images/hd/jewellery-background-2880-x-1800-dgixvilq78viyf9w.jpg');
+  background-size: cover;
+  cursor: pointer;
+}
+#card-4{
+  background-image: url('https://t4.ftcdn.net/jpg/03/64/41/07/360_F_364410756_Ev3WoDfNyxO9c9n4tYIsU5YBQWAP3UF8.jpg');
+  background-size: cover;
+  cursor: pointer;
+}
+#card-5{
+  background-image: url('https://media.istockphoto.com/id/864505242/photo/mens-clothing-and-personal-accessories.jpg?s=612x612&w=0&k=20&c=TaJuW3UY9IZMijRrj1IdJRwd6iWzXBlrZyQd1uyBzEY=');
+  background-size: cover;
+  cursor: pointer;
+}
+#card-6{
+  background-image: url('https://cms.landmarkshops.in/cdn-cgi/image/w=1232,q=85,fit=cover/LS-Fest/LS-new/HP_LS_Womenn_Desktop-1-18Sept2024A.jpg');
+  background-size: cover;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#specification-container{
+  width: 70%;
+  margin: 80px auto;
+  border: 2px solid black;
+  height: 450px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#specification-container-left{
+  width: 45%;
+  height: 100%;
+  border: 1px solid black;
 }
+#specification-container-right{
+  width: 55%;
+  height: 100%;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+.specification-highlight-image{
+  width: 70%;
+  margin-left: 40px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
