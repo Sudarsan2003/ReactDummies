@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReactDummies/static/css/main.3c272fe5.css",
+    "main.js": "/ReactDummies/static/js/main.76851ff9.js",
+    "static/js/453.ded839df.chunk.js": "/ReactDummies/static/js/453.ded839df.chunk.js",
+    "index.html": "/ReactDummies/index.html",
+    "main.3c272fe5.css.map": "/ReactDummies/static/css/main.3c272fe5.css.map",
+    "main.76851ff9.js.map": "/ReactDummies/static/js/main.76851ff9.js.map",
+    "453.ded839df.chunk.js.map": "/ReactDummies/static/js/453.ded839df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c272fe5.css",
+    "static/js/main.76851ff9.js"
+  ]
+}
